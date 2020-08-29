@@ -1,0 +1,330 @@
+#header {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+#header div {
+	margin: 0 auto;
+    max-width: 940px;
+    min-height: 227px;
+    padding: 0 10px;
+}
+#header div a.logo {
+	display: block;
+    float: left;
+    height: 106px;
+    margin: 44px 0 0;
+    padding: 0;
+    width: 320px;
+}
+#header div a.logo img {
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#header div ul {
+	display: block;
+    float: right;
+    list-style: none outside none;
+    margin: 0 auto;
+    max-width: 501px;
+    padding: 102px 0 20px;
+    text-align: center;
+}
+#header div ul li {
+	display: inline-block;
+    *float: left;
+     /* Needed for IE7 and old versions */
+	margin: 0 0 0 37px;
+	padding: 0;
+	width: auto;
+}
+#header div ul li a {
+	color: #000000;
+	font-family: "Arial Black";
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 14px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+    width: auto;
+    text-decoration: none;
+}
+#header div ul li.selected a, #header div ul li.selected a:hover {
+	color: #fb416f;
+}
+#header div ul li a:hover {
+	color: #16ab88;
+}
+#header div ul li ul {
+	display: none;
+}
+#header span#mobile-navigation, #header span#mobile-submenu, #header div ul li ul {
+	display: none;
+}
+
+.banner{
+    width:1320px;
+    height: 920px;
+    padding: px;
+    background-image: linear-gradient( 50deg, rgba(255, 152, 134, 0.918)
+    ,rgba(255, 152, 134, 0.918)),
+     url('../aimages/r9.jpg');background-repeat: repeat; 
+     background-size: ;
+    }
+
+     .h1{
+        background: none;
+        color: #000000;
+        display: block;
+        font-family: 'Arial Black';
+        font-size: 70px;
+        font-weight:normal;
+        line-height: 96px;
+        margin: 0 auto 32px;
+      
+        padding: 0;
+        text-align: center;
+        text-transform: uppercase;
+        width: 89.5833%;
+    }
+    .button {
+        background-color:none;
+        border: none;
+        color: black;
+        padding: 8px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 0px 0px;
+        cursor: pointer;
+        border:4px solid black;
+        line-height: 30px;
+      }
+      
+      .button1 {
+        background-color:none;
+        border: none;
+        color: black;
+        padding: 8px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 0px -24px;
+        cursor: pointer;
+        border:4px solid black;
+        line-height: 30px;
+      }
+      
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 1px;
+        background-color:hotpink;
+        padding: 10px;
+        margin:0px;
+        height: 400px;
+        width: 1300px;
+      }
+    
+      .grid-container > div {
+        background-color:hotpink;
+        text-align: left;
+        padding-left: 0px;
+        font-size: 18px;
+        width: 500px;
+        color:white;
+        margin-left: 150px;
+        margin-top: 20px;
+        margin-right: 150px;
+        margin-bottom: 20px;
+      }
+
+      .button2 {
+        background-color:hotpink;
+        border: none;
+        color:white;
+        padding: 8px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border:5px solid white;
+        line-height: 30px;}
+          
+        /* About additional style */
+
+        .banner1 {
+         width:1320px;
+        height: 1380px;
+        padding: px;
+        background-image: linear-gradient( 50deg, rgba(255, 152, 134, 0.918)
+        ,rgba(255, 152, 134, 0.918)),
+         url('../aimages/r9.jpg');background-repeat: repeat; 
+         margin: 0px;
+         }
+
+         .banner2 {
+        width:800px;
+        height: 1380px;
+        padding: px;
+        background-image: linear-gradient( 50deg, rgba(12, 11, 11, 0.918)
+         ,rgba(12, 12, 12, 0.945)),
+        url('../aimages/r7.jpg');background-repeat: repeat;
+        margin:0 auto;
+        text-align: center;
+        padding-top: 30px;
+        padding-left: 80px;
+        padding-right: 80px;
+        }
+        .p{line-height: 25px; color: white; font-size: 17px; font-family: 'Times New Roman';}
+    
+       .h{ color: white; font-size: 25px; line-height: 40px;}
+
+       footer {
+        text-align: left;
+        padding: 3px;
+        background-color: black;
+        color: white;
+        height: 100px;
+        margin: 0 px;
+        padding: 100px;
+        width: 1120px;
+      }
+
+       /* Running additional */
+       
+       .banner3 {
+        width:910px;
+        height: 1380px;
+        padding: px;
+        background-image: linear-gradient( 50deg, rgba(12, 11, 11, 0.918)
+         ,rgba(12, 12, 12, 0.945)),
+        url('../aimages/r7.jpg');background-repeat: repeat;
+        margin:0 auto;
+        text-align: center;
+        padding-top: 30px;
+        padding-left: 40px;
+        padding-right: 40px;
+        }
+
+        /* Blog additional style*/
+        .banner4 {
+            width:910px;
+            height: 1380px;
+            padding: px;
+            background-image: linear-gradient( 50deg, rgba(12, 11, 11, 0.918)
+             ,rgba(12, 12, 12, 0.945)),
+            url('../aimages/r7.jpg');background-repeat: repeat;
+            margin:0 auto;
+            text-align: center;
+            padding-top: 30px;
+            padding-left: 40px;
+            padding-right: 40px;
+            }
+    
+        .contA {width:750px; height:270px; margin:0 auto;
+         color: white; background-color:none; line-height: 40px; 
+         text-align: left; text-align: left;
+
+        }
+
+        .p1{line-height: 40px; color: white; font-size: 17px;
+             font-family: 'Times New Roman';}
+
+             .buttonblog {
+                background-color:none;
+                color:white;
+                padding: 6px 25px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                border: 2px solid white;
+                line-height: 30px;}
+
+
+                /* Contact additional style */
+
+                .banner5 {
+                    width:800px;
+                    height: 1380px;
+                    padding: px;
+                    background-image: linear-gradient( 50deg, rgba(12, 11, 11, 0.918)
+                     ,rgba(12, 12, 12, 0.945)),
+                    url('../aimages/r7.jpg');background-repeat: repeat;
+                    margin:0 auto;
+                    text-align: center;
+                    padding-top: 30px;
+                    padding-left: 80px;
+                    padding-right: 80px;
+                    color: white;
+                    
+                    }
+                    input[type=text], select{width: 400px;
+                        height: 40px;
+                        padding: 12px 20px;
+                        margin: 8px 0;
+                        display: inline-block; 
+                        border: 2px solid white;
+                         border-radius: none; 
+                        box-sizing: border-box;
+                        cursor: pointer;
+                        text-align:center ;
+                        background:none ;
+                        font-size: 20px;
+                        color: white;
+
+                     }
+                    
+                        textarea {
+                          width: 400px;
+                          height: 90px;
+                          padding: 12px 20px;
+                          box-sizing: border-box;
+                          border: 2px solid white;
+                          border-radius: 4px;
+                          background: none;
+                          font-size: 20px;
+                          resize: none;
+                          cursor: pointer;
+                          text-align: center;
+                          color: white;
+                    
+                        }
+                        .button3 {
+                            background-color:none;
+                            border: none;
+                            color:white;
+                            padding: 8px 40px;
+                            text-align: center;
+                            text-decoration: none;
+                            display: inline-block;
+                            font-size: 20px;
+                            margin: 4px 2px;
+                            cursor: pointer;
+                            border:2px solid white;
+                            line-height: 30px; 
+                        }
+                     
+                       .button3:hover{ background-color: hotpink;}
+
+                       /*blog Single post */
+
+                       .contB {width:750px; height:870px; margin:0 auto;
+                        color: white; background-color:none; line-height: 42px; 
+                        text-align: left; text-align: left;padding-left: ;
+               
+                       }
+
+                      
